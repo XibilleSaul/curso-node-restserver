@@ -11,7 +11,7 @@ class Server {
         this.usuariosPath = '/api/usuarios';
 
         //Database Connection
-        this.connectDB()
+        this.connectDB();
 
         // Midelwares 
         this.middlewares();
